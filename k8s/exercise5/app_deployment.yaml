@@ -18,7 +18,7 @@ spec:
         app: student-portal
     spec:
       imagePullSecrets:
-      - name: ecr-secret
+      - name: aws-secret
       containers:
       - name: attendance-app
         image: 292659698930.dkr.ecr.ap-south-1.amazonaws.com/student-portal:k8s1 
